@@ -214,11 +214,11 @@ export default function SignIn() {
                 </label>
               </div>
 
-              <div className="text-xs">
+              {/* <div className="text-xs">
                 <Link href="/auth/forgot-password" className="font-medium text-blue-600 hover:text-blue-500 transition-colors duration-200">
                   Forgot password?
                 </Link>
-              </div>
+              </div> */}
             </div>
 
             <button

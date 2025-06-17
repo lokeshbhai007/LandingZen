@@ -6,7 +6,7 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Next.js Authentication',
+  title: 'LandingZen',
   description: 'JWT + NextAuth.js Authentication System',
 };
 

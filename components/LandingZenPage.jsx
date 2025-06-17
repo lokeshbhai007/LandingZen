@@ -238,7 +238,7 @@ const LandingZenPage = ({ onLogout, userSession }) => {
 
       {/* Hero Section */}
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-20 pb-10 lg:min-h-screen lg:mt-0 lg:mb-0 flex items-center">
+      <section className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 pt-20 pb-12 lg:min-h-screen lg:mt-0 lg:mb-0 flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center py-16 lg:py-0">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">

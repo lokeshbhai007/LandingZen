@@ -237,7 +237,7 @@ const LandingZenPage = ({ onLogout, userSession }) => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 min-h-screen flex items-center">
+      <section className="relative bg-gradient-to-br from-blue-50 via-white to-purple-50 md:min-h-screen lg:min-h-screen mt-20 mb-10 flex items-center">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
           <div className="text-center py-16 lg:py-0">
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -253,11 +253,11 @@ const LandingZenPage = ({ onLogout, userSession }) => {
               customers today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-              <button className="w-1/2 sm:w-52 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-7 py-3 rounded-lg text-base font-semibold transition-all transform hover:scale-105 flex items-center justify-center space-x-2">
+              <button className="w-60 sm:w-52 bg-gradient-to-r from-blue-500 to-purple-600 hover:from-blue-600 hover:to-purple-700 text-white px-7 py-3 rounded-lg text-base font-semibold transition-all transform hover:scale-105 flex items-center justify-center space-x-2">
                 <span>Start Free Trial</span>
                 <ArrowRight className="w-5 h-5" />
               </button>
-              <button className="w-1/2 sm:w-52 border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-7 py-3 rounded-lg text-base font-semibold transition-colors">
+              <button className="w-60 sm:w-52 border-2 border-gray-300 hover:border-gray-400 text-gray-700 px-7 py-3 rounded-lg text-base font-semibold transition-colors">
                 Watch Demo
               </button>
             </div>

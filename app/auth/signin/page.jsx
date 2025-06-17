@@ -47,7 +47,7 @@ export default function SignIn() {
       if (result?.error) {
         toast.error(result.error);
       } else if (result?.ok) {
-        toast.success("Welcome! You are successfully logged in.");
+        toast.success("Welcome! login successfull.");
         router.push("/dashboard");
       }
     } catch (error) {
